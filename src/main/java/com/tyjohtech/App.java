@@ -11,7 +11,7 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) {
-        Scene scene = new Scene(BorderPaneExample.createExample(), 640, 480);
+        Scene scene = new Scene(AnchorPaneExample.createExample(), 640, 480);
         String styleSheet = getClass().getResource("/style.css").toExternalForm();
         scene.getStylesheets().add(styleSheet);
         stage.setScene(scene);
