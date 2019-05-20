@@ -8,7 +8,7 @@ import javafx.scene.layout.Priority;
 
 public class HBoxExample {
 
-    public static HBox createHBoxExample(){
+    public static HBox createExample(){
         HBox hbox = new HBox();
         hbox.getStyleClass().add("bg-1");
         hbox.setAlignment(Pos.CENTER);
